@@ -25,4 +25,5 @@ predictedAndActual = np.hstack((predicted, n_test))
 
 print(predictedAndActual)
 
+
 np.save("predict_actual.npy",predictedAndActual)
