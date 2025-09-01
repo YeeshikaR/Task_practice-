@@ -1,2 +1,2 @@
-###Task 3:<br>
+**Task 3:**<br>
 Using the (x, y, z) coordinates extracted from TLEs, build a simple baseline ML model that predicts the next time step position of a single satellite from its past 5–10 positions. Start with a regression model (e.g., Linear Regression or Random Forest) as a baseline, then optionally try an LSTM/GRU. Compare predicted vs. actual positions for a chosen satellite and plot error over time. Deadline: 11:59 PM, 5th September.
