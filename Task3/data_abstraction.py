@@ -58,7 +58,7 @@ for i in range(10, len(x)):
 features = np.array(features).reshape(-1, 30)
 next_pos = np.array(next_pos).reshape(-1, 3)
 print(features.shape)
+print(next_pos.shape)
 
-dataFrame = np.hstack((features, next_pos))
-
-np.save("dataFrame.npy", dataFrame)
+np.save("features.npy", features)
+np.save("outputs.npy", next_pos)
